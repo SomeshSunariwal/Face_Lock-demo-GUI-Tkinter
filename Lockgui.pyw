@@ -20,6 +20,8 @@ def folder():
         os.mkdir("trainer")
         os.mkdir("dataset_temp/train")
         os.mkdir("dataset_temp/rec")
+        time.sleep(2)
+        tmsg.showinfo("Success-full", "Folder Successfully created !")
     else:
         pass
 
